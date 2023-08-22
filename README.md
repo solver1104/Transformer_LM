@@ -1,2 +1,2 @@
 # Transformer_LM
-Implements a Transformer architecture from scratch (a downscaled GPT-2), and code to train it for auto-regressive language modelling. Currently uses character level tokenization, looking into subword tokenization.
+Implements a Transformer architecture from scratch (essentially a downscaled GPT-2 using Chinchilla scaling laws to govern model dimension), and code to train it for auto-regressive language modelling. TransformerLM_final uses character level encoding, while BPETransformer10k uses BPETokenizer to create a 10k token vocabulary. Trained weights are also included for BPETransformer10k, these weights are trained on TinyStories.
